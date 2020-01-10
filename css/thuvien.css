@@ -1,0 +1,15 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+#body{
+	width: 100%;
+}
+#poster{
+	width: inherit;
+}
+#poster img {
+	width: inherit;
+	height: 400px;
+}
