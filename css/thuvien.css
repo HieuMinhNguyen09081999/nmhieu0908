@@ -2,14 +2,52 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
-#body{
-	width: 100%;
+#header {
+	background-color: #CCC;
+	height: 46px;
 }
-#poster{
-	width: inherit;
+#brach-header {
+	display: inline;
+	float: left;
+	text-decoration: none;
+	font-size: 20px;
+	height: inherit;
+	border: 0px solid black;
+	border-radius: 10px;
+	box-shadow: #CF6 1px 1px;
 }
-#poster img {
-	width: inherit;
-	height: 400px;
+#brach-header:hover a{
+	text-decoration: none;
+}
+#nav-header {
+	display: inline;
+	float: left;
+	height: inherit;
+}
+#nav-header ul, #nav-header ul li, #nav-header ul li a {
+	height: inherit;
+	font-size: 18px;
+}
+#nav-header ul li a:hover {
+	background-color: #666;
+	color: #FFF;
+}
+#form-header {
+	display: inline;
+	float: left;
+}
+#form-header input, #form-header button {
+	display: inline;
+	float: left;
+}
+#personal-header {
+	display: inline;
+	float: left;
+	height: inherit;
+	font-size: 18px;
+}
+#personal-header:hover {
+	background-color: #FFF;
 }

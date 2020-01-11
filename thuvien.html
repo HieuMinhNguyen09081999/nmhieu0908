@@ -1,34 +1,43 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="css/thuvien.css"/>
-<title>Thư Viện</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="css/thuvien.css"/>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Truyện Hay</title>
 </head>
 
-<body style="background-color: #CCC;" > 
-<div class="container-fluid">
- <div>
- 	<ul class="nav nav-pills justify-content-center">
-    	<li class="nav-item"><a class="nav-link active" data-toggle="pill" href="#BLOG"><b>BLOG</b></a></li>
-        <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#ABOUT"><b>ABOUT</b></a></li>
-        <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#TOP5"><b>TOP 5</b></a>
-        </li>
-    </ul>
- </div>
- <div id="poster">
- 	<img src="image/pexels-photo-1290141.jpeg" alt="Thư Viện" title="Thư Viện" />
- </div>
- <div class="container bg-white">
- 	<div class="tab-content">
-    	<div class="tab-pane  active" id="BLOG">BLOG</div>
-        <div class="tab-pane fade" id="ABOUT">ABOUT</div>
-        <div class="tab-pane fade" id="TOP5">TOP5</div>
+<body > 
+ <div class="container-fluid"> <!-- Full screen and auto reponsive -->
+ 	<div id="header" class="container-fluid"> <!-- first section -->
+    	<div id="brach-header" class="bg-warning p-2 ml-5 mr-5"> <!-- brach of website -->
+        	<a href="#">Truyện Hay</a>
+        </div>
+    	<div id="nav-header" class="nav mr-5"> <!-- navigation bar of header -->
+        	<ul class="nav">
+            	<li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-bars"></i> Thể loại</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-sort"></i> Sắp xếp</a></li>   
+            </ul>
+        </div>
+        <div id="form-header" class="mr-5"> <!-- field to search -->
+        	<form class="form-group pt-1">
+            	<input type="text" style="width: 400px;" class="form-control mr-1" placeholder="Tìm kiếm" />
+            	<button type="button" class="btn btn-success">
+            		Tìm Kiếm
+            	</button>
+            </form>
+        </div>
+        <div id="personal-header" class="dropdown"> <!-- logon and logup -->
+        	<a href="#" data-toggle="dropdown"><i class="fa fa-users p-3">Thành viên</i></a>
+            <div class="dropdown-menu mt-2">
+            	<a href="#" class="dropdown-item">Đăng kí</a>
+                <a href="#" class="dropdown-item">Đăng nhập</a>
+            </div>
+        </div>
     </div>
  </div>
-</div>
 </body>
 </html>
