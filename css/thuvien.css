@@ -4,6 +4,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+/* header */
 #header {
 	background-color: #CCC;
 	height: 46px;
@@ -14,12 +15,10 @@
 	text-decoration: none;
 	font-size: 20px;
 	height: inherit;
+	background-color: #CF0;
 	border: 0px solid black;
 	border-radius: 10px;
 	box-shadow: #CF6 1px 1px;
-}
-#brach-header:hover a{
-	text-decoration: none;
 }
 #nav-header {
 	display: inline;
@@ -50,4 +49,14 @@
 }
 #personal-header:hover {
 	background-color: #FFF;
+}
+#subTheLoai, #subSapXep{
+	position: absolute;
+	display: none;
+}
+#subTheLoai li, #subSapXep li{
+	width: 165px;
+}
+#theLoai:hover #subTheLoai, #sapXep:hover #subSapXep{
+	display: block;
 }
