@@ -20,6 +20,9 @@
 	border-radius: 10px;
 	box-shadow: #CF6 1px 1px;
 }
+#brach-header:hover a{
+	text-decoration: none;
+}
 #nav-header {
 	display: inline;
 	float: left;
