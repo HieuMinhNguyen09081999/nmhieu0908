@@ -56,6 +56,7 @@
 #subTheLoai, #subSapXep{
 	position: absolute;
 	display: none;
+	z-index: 10;
 }
 #subTheLoai li, #subSapXep li{
 	width: 165px;
@@ -63,3 +64,4 @@
 #theLoai:hover #subTheLoai, #sapXep:hover #subSapXep{
 	display: block;
 }
+
